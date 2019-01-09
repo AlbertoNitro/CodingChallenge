@@ -16,7 +16,6 @@ describe("GET " + END_POINT, () => {
                 expect(res.status).to.equal(HttpStatusCode.OK);
                 const exchangeDto: ExchangeDto = res.body;
                 expect(exchangeDto.base).to.equal("EUR");
-                expect(exchangeDto.date).to.equal("2019-01-08");
                 expect(exchangeDto.rates).to.be.an("object");
                 done();
             });
