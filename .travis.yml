@@ -1,0 +1,15 @@
+language:
+    - node_js
+node_js:
+    - 9.2.1
+branches:
+    only:
+    - master
+    - develop
+before_script:
+    - npm install
+script:
+    - npm run test
+    - sonar-scanner -Dsonar.projectKey=AlbertoNitro_CodingChallenge -Dsonar.organization=albertonitro-github -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=006a3d3a648c43d01b0e64d657a0658f1aedd2fd
+
+

@@ -1,0 +1,34 @@
+export interface RatesDto {
+    HRK: number;
+    HUF: number;
+    IDR: number;
+    PHP: number;
+    TRY: number;
+    RON: number;
+    ISK: number;
+    SEK: number;
+    THB: number;
+    PLN: number;
+    GBP: number;
+    CAD: number;
+    AUD: number;
+    MYR: number;
+    NZD: number;
+    CHF: number;
+    DKK: number;
+    SGD: number;
+    CNY: number;
+    BGN: number;
+    CZK: number;
+    BRL: number;
+    JPY: number;
+    KRW: number;
+    INR: number;
+    MXN: number;
+    RUB: number;
+    HKD: number;
+    USD: number;
+    ZAR: number;
+    ILS: number;
+    NOK: number;
+}
